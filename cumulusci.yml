@@ -1,0 +1,27 @@
+minimum_cumulusci_version: '3.84.1'
+project:
+    name: eService-NPC-Compatibililty
+    package:
+        name: eService-NPC-Compatibililty
+        api_version: '59.0'
+    dependencies:
+        - github: 'https://github.com/EncludeLtd/eCASSV2.5'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/eService-NPC-Compatibililty/tests
+            options:
+                outputdir: robot/eService-NPC-Compatibililty/results
+
+    robot_testdoc:
+        options:
+            path: robot/eService-NPC-Compatibililty/tests
+            output: robot/eService-NPC-Compatibililty/doc/eService-NPC-Compatibililty_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
