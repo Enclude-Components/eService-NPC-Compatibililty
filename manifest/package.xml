@@ -1,4 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-	<version>59.0</version>
+	<types>
+		<members>eCASS02t1__Attendance__c.Default_Client_Account_Contact__c</members>
+		<members>eCASS02t1__Care_Plan_Objective__c.Default_Client_Account_Contact__c</members>
+		<members>eCASS02t1__Enrolment__c.Default_Client_Account_Contact__c</members>
+		<members>eCASS02t1__Incoming_Referral__c.Default_Client_Account_Contact__c</members>
+		<members>eCASS02t1__Referral__c.Default_Client_Account_Contact__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>eCASS02t1__Field_Default.CPO_Person_Account_Client</members>
+		<members>eCASS02t1__Field_Default.Enrolment_Person_Account_Client</members>
+		<members>eCASS02t1__Field_Default.Incoming_Referral_Person_Account_Client</members>
+		<members>eCASS02t1__Field_Default.Intervention_Person_Account_Client</members>
+		<members>eCASS02t1__Field_Default.Service_Referral_Person_Account_Client</members>
+		<name>CustomMetadata</name>
+	</types>
+	<types>
+		<members>Account_Record_Page</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>PersonAccount-Person Account Layout</members>
+		<members>eCASS02t1__Attendance__c-Course Attendance Layout</members>
+		<members>eCASS02t1__Care_Plan_Objective__c-Care Plan Objective Layout</members>
+		<members>eCASS02t1__Enrolment__c-Participant Layout</members>
+		<members>eCASS02t1__Incoming_Referral__c-Incoming Referral Layout</members>
+		<members>eCASS02t1__Referral__c-Internal Layout</members>
+		<name>Layout</name>
+	</types>
+	<version>58.0</version>
 </Package>
