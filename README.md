@@ -8,3 +8,5 @@ Holds post-install metadata to make eService compatible with Nonprofit Cloud org
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
 
+## Post-Install Instructions
+If you haven't already configured eService, see the [Installation Instructions](https://github.com/EncludeLtd/eCASSV2.5/blob/main/docs/installation_instructions.md)
