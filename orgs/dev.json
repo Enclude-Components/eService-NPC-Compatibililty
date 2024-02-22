@@ -1,6 +1,28 @@
 {
-  "orgName": "eService-NPC-Compatibililty - Dev Org",
+  "orgName": "eService - Dev Org",
   "edition": "Developer",
+  "features": [
+    "AccountingSubledgerGrowthEdition",
+    "AccountingSubledgerUser",
+    "AnalyticsQueryService",
+    "Assessments",
+    "EnableSetPasswordInApi",
+    "ForceComPlatform",
+    "Fundraising",
+    "Grantmaking",
+    "IndustriesActionPlan",
+    "IndustriesActionPlan",
+    "IndustriesSalesExcellenceAddOn",
+    "IndustriesServiceExcellenceAddOn",
+    "MarketingUser",
+    "NonprofitCloudCaseManagementUser",
+    "OmniStudioDesigner",
+    "OmniStudioRuntime",
+    "OutcomeManagement",
+    "PersonAccounts",
+    "ProgramManagement",
+    "PublicSectorAccess"
+  ],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
@@ -19,6 +41,13 @@
     },
     "languageSettings": {
       "enableTranslationWorkbench": true
+    },
+    "industriesSettings": {
+      "enableBenefitManagementPreference": true,
+      "enableBenefitAndGoalSharingPref": true,
+      "enableCarePlansPreference": true,
+      "enableGrantmaking": true,
+      "enableOutcomes": true
     }
   }
 }
