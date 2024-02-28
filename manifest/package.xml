@@ -21,7 +21,6 @@
 		<name>FlexiPage</name>
 	</types>
 	<types>
-		<members>PersonAccount-Person Account Layout</members>
 		<members>eCASS02t1__Attendance__c-Course Attendance Layout</members>
 		<members>eCASS02t1__Care_Plan_Objective__c-Care Plan Objective Layout</members>
 		<members>eCASS02t1__Enrolment__c-Participant Layout</members>
