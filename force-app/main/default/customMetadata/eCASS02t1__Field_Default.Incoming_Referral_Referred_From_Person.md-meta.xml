@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Incoming Referral Referred From Person</label>
+    <protected>false</protected>
+    <values>
+        <field>eCASS02t1__Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>eCASS02t1__Field_Dependency__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>eCASS02t1__On_Create__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>eCASS02t1__On_Update__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>eCASS02t1__Order__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>eCASS02t1__Override_User_Input__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>eCASS02t1__Source_Field__c</field>
+        <value xsi:type="xsd:string">Default_Referred_From_Contact__c</value>
+    </values>
+    <values>
+        <field>eCASS02t1__Source_Object__c</field>
+        <value xsi:type="xsd:string">eCASS02t1__Incoming_Referral__c</value>
+    </values>
+    <values>
+        <field>eCASS02t1__Target_Field__c</field>
+        <value xsi:type="xsd:string">eCASS02t1__Referred_From_Contact__c</value>
+    </values>
+</CustomMetadata>

@@ -47,7 +47,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>eCASS02t1__Referred_From_Organisation__c</field>
+                <field>Referred_From_Person_Account__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -56,7 +56,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>eCASS02t1__Referred_From_Contact__c</field>
+                <field>eCASS02t1__Referred_From_Organisation__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -174,7 +174,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00hAY000001D2Jq</masterLabel>
+        <masterLabel>00hAa000003byRy</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
