@@ -2,6 +2,16 @@
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>An extension to the eService permission set, including permissions related to Nonprofit Cloud orgs</description>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>eCASS02t1__Incoming_Referral__c.Default_Client_Account_Contact__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eCASS02t1__Incoming_Referral__c.Default_Referred_From_Contact__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>eCASS02t1__Incoming_Referral__c.Referred_From_Person_Account__c</field>
         <readable>true</readable>
