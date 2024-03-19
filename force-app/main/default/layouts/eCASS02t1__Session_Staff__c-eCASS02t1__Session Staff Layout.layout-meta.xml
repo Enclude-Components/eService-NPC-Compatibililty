@@ -13,7 +13,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Person_Account__c</field>
+                <field>eCASS02t1__Account__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

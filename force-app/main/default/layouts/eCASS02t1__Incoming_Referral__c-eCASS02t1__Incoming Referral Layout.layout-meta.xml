@@ -47,7 +47,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Referred_From_Person_Account__c</field>
+                <field>eCASS02t1__Referred_From_Account__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
