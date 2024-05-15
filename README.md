@@ -51,9 +51,7 @@ The following page layouts should be assigned to the listed Record Types.
 ### Permissions
 
 #### Permission Set Groups
-- eService Permissions[^3]: Base permissions for eService Users. Assign this to all users who need access.
-
-[^3]: Ensure that you are assigning the eService Permissions **GROUP** to the user, and not the Permission Set with the same name.
+- eService Permissions: Base permissions for eService Users. Assign this to all users who need access. Ensure that you are assigning the eService Permissions **GROUP** to the user, and not the Permission Set with the same name.
 
 #### Permission Set
 - eService Admin: Additional permissions to eService admins. Assign this to users who will create and edit Programmes. This should be assigned *in addition to* eService Permissions
