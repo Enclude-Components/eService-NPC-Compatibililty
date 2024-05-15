@@ -16,8 +16,6 @@ If you haven't already installed and configured eService, see the [Installation 
 
 ### Record Types
 Ensure that **only** the following record types are active for any profiles using eService
-- Account
-  - Business Account
 - Person Account
   - Client Person Account
   - General Person Account[^1]
@@ -31,6 +29,13 @@ Ensure that **only** the following record types are active for any profiles usin
 
 ### Page Layout Assignments
 The following page layouts should be assigned to the listed Record Types.
+
+#### Person Account[^2]
+| Record Type | Page Layout |
+| ----------- | ----------- |
+| Client Person Account | Client Person Account Layout |
+
+[^2]: Other record types and page layout assignments may be required for Account and Person Account if you have not installed eStart
 
 #### Intervention (Attendance__c)
 | Record Type | Page Layout |
@@ -46,9 +51,9 @@ The following page layouts should be assigned to the listed Record Types.
 ### Permissions
 
 #### Permission Set Groups
-- eService Permissions[^2]: Base permissions for eService Users. Assign this to all users who need access.
+- eService Permissions[^3]: Base permissions for eService Users. Assign this to all users who need access.
 
-[^2]: Ensure that you are assigning the eService Permissions **GROUP** to the user, and not the Permission Set with the same name.
+[^3]: Ensure that you are assigning the eService Permissions **GROUP** to the user, and not the Permission Set with the same name.
 
 #### Permission Set
 - eService Admin: Additional permissions to eService admins. Assign this to users who will create and edit Programmes. This should be assigned *in addition to* eService Permissions
