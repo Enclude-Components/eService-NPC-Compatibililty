@@ -6,43 +6,15 @@
     <picklistValues>
         <picklist>AccountSource</picklist>
         <values>
-            <fullName>Advertisement</fullName>
+            <fullName>Social Media</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Employee Referral</fullName>
+            <fullName>Web Search</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>External Referral</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Partner</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Public Relations</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Seminar - Internal</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Seminar - Partner</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Trade Show</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Web</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Word of mouth</fullName>
+            <fullName>Word of Mouth</fullName>
             <default>false</default>
         </values>
         <values>
