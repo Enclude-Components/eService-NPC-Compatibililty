@@ -1,17 +1,21 @@
 {
-  "orgName": "eService - Dev Org",
+  "orgName": "Nonprofit Cloud Example",
   "edition": "Developer",
+  "description": "Example settings for creating an Nonprofit Cloud scratch org. Customize features and permissions as needed for your project.",
   "features": [
     "AccountingSubledgerGrowthEdition",
     "AccountingSubledgerUser",
     "AnalyticsQueryService",
     "Assessments",
+    "Communities",
+    "ContactsToMultipleAccounts",
     "EnableSetPasswordInApi",
-    "ForceComPlatform",
     "Fundraising",
     "Grantmaking",
+    "DataProcessingEngine",
+    "DecisionTable",
     "IndustriesActionPlan",
-    "IndustriesActionPlan",
+    "DocumentChecklist",
     "IndustriesSalesExcellenceAddOn",
     "IndustriesServiceExcellenceAddOn",
     "MarketingUser",
@@ -21,33 +25,39 @@
     "OutcomeManagement",
     "PersonAccounts",
     "ProgramManagement",
-    "PublicSectorAccess"
+    "PublicSectorAccess",
+    "StateAndCountryPicklist"
   ],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
     "chatterSettings": {
       "enableChatter": true
     },
-    "userManagementSettings": {
-      "enableNewProfileUI": true
+    "apexSettings": {
+      "enableDisableParallelApexTesting": true
     },
-    "securitySettings": {
-      "enableAdminLoginAsAnyUser": true,
-      "sessionSettings": {
-        "forceRelogin": false
-      }
-    },
-    "languageSettings": {
-      "enableTranslationWorkbench": true
+    "enhancedNotesSettings": {
+      "enableEnhancedNotes": true
     },
     "industriesSettings": {
       "enableBenefitManagementPreference": true,
       "enableBenefitAndGoalSharingPref": true,
       "enableCarePlansPreference": true,
+      "enableGroupMembershipPref": true,
       "enableGrantmaking": true,
       "enableOutcomes": true
+    },
+    "nameSettings": {
+      "enableMiddleName": true,
+      "enableNameSuffix": true
+    },
+    "InterestTaggingSettings": {
+      "enableInterestTagging": true
     }
   }
 }
