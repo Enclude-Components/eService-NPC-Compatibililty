@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Create_Contact_without_Person_Acc</fullName>
+    <active>true</active>
+    <description>This rule prevents the direct creation of a Contact record, meant to ensure that the User is creating Person Accounts instead.</description>
+    <errorConditionFormula>ISBLANK(AccountId)</errorConditionFormula>
+    <errorMessage>Please create a Person Account instead of a Contact</errorMessage>
+</ValidationRule>
