@@ -21,18 +21,6 @@
 		<name>CustomObject</name>
 	</types>
 	<types>
-		<members>Account_Record_Page</members>
-		<name>FlexiPage</name>
-	</types>
-	<types>
-		<members>eCASS02t1__Attendance__c-Course Attendance Layout</members>
-		<members>eCASS02t1__Care_Plan_Objective__c-Care Plan Objective Layout</members>
-		<members>eCASS02t1__Enrolment__c-Participant Layout</members>
-		<members>eCASS02t1__Incoming_Referral__c-Incoming Referral Layout</members>
-		<members>eCASS02t1__Referral__c-Internal Layout</members>
-		<name>Layout</name>
-	</types>
-	<types>
 		<members>Contact.Cannot_Create_Contact_without_Person_Acc</members>
 		<name>ValidationRule</name>
 	</types>
